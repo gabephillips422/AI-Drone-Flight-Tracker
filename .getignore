@@ -1,0 +1,21 @@
+
+# Python virtual environment
+.venv/
+
+# Python temporary files
+__pycache__/
+*.pyc
+
+# Mac files
+.DS_Store
+
+# Secrets and environment variables
+.env
+
+# Drone video files
+data/videos/*
+!data/videos/.gitkeep
+
+# AI model files
+models/*
+!models/.gitkeep
